@@ -16,6 +16,8 @@ def run_camera():
     while True:
         # Capture frame-by-frame
         ret, frame = cap.read()
+        if not ret:
+            break
         # Establish grayscale for better performance
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 

@@ -24,24 +24,40 @@ class MainMenu(QWidget):
         #Start Button
         start_button = QPushButton("Start")
         start_button.setObjectName('start_button')
+        start_button.setToolTip("Click to start the screen reader")
         start_button.clicked.connect(lambda: self.stacked_widget.setCurrentIndex(1))
         layout.addWidget(start_button)
 
         #About Button will link to GitHub Repo
         about_button = QPushButton("About")
         about_button.setObjectName('about_button')
+        about_button.setToolTip("Click to open the GitHub repository for this project")
         about_button.clicked.connect(lambda: QDesktopServices.openUrl(QUrl("https://github.com/ysabum/CSCI4250_HCI/tree/main")))
         layout.addWidget(about_button)
 
         #Exit will close the application
         exit_button = QPushButton("Exit")
         exit_button.setObjectName('exit_button')
-        exit_button.clicked.connect(QApplication.quit)
+        exit_button.setToolTip("Click to close the app")
+        # exit_button.clicked.connect(QApplication.quit)
+        exit_button.clicked.connect(self.force_quit)        
         layout.addWidget(exit_button)
 
         layout.addStretch()
 
         self.setLayout(layout)
+
+    def force_quit(self):
+        """Forcefully closes the application and all associated windows.
+
+        This method attempts to close any OpenCV windows and then terminates the application process.
+        """
+        try:
+            cv2.destroyAllWindows()
+        except:
+            pass
+        QApplication.instance().quit()
+        os._exit(0)
 
 class StartScreen(QWidget):
     def __init__(self, stacked_widget):
