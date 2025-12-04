@@ -6,12 +6,12 @@ This project presents an accessibility-oriented application that enables hands-f
 
 ## Python Resources Referenced
 ### Currently Referenced
-https://github.com/ck-zhang/EyeTrax
-https://github.com/nateshmbhat/pyttsx3/issues/138
-https://pypi.org/project/pyttsx3/
-https://pypi.org/project/pyperclip/
-https://pyautogui.readthedocs.io/en/latest/mouse.html#mouse-clicks
-https://pyttsx3.readthedocs.io/en/latest/engine.html#the-engine-factory
+https://github.com/ck-zhang/EyeTrax  
+https://github.com/nateshmbhat/pyttsx3/issues/138  
+https://pypi.org/project/pyttsx3/  
+https://pypi.org/project/pyperclip/  
+https://pyautogui.readthedocs.io/en/latest/mouse.html#mouse-clicks  
+https://pyttsx3.readthedocs.io/en/latest/engine.html#the-engine-factory  
 
 ### Formerly Referenced / Obsolete
 https://medium.com/analytics-vidhya/haar-cascades-explained-38210e57970d  
