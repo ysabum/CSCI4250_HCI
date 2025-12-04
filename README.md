@@ -6,11 +6,17 @@ This project presents an accessibility-oriented application that enables hands-f
 
 ## Python Resources Referenced
 ### Currently Referenced
-https://medium.com/@amit25173/opencv-eye-tracking-aeb4f1b46aa3
-https://pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/
-https://pyimagesearch.com/2017/04/17/real-time-facial-landmark-detection-opencv-python-dlib/
-https://pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/
+https://github.com/ck-zhang/EyeTrax
+https://github.com/nateshmbhat/pyttsx3/issues/138
+https://pypi.org/project/pyttsx3/
+https://pypi.org/project/pyperclip/
+https://pyautogui.readthedocs.io/en/latest/mouse.html#mouse-clicks
+https://pyttsx3.readthedocs.io/en/latest/engine.html#the-engine-factory
 
 ### Formerly Referenced / Obsolete
 https://medium.com/analytics-vidhya/haar-cascades-explained-38210e57970d  
 https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html  
+https://medium.com/@amit25173/opencv-eye-tracking-aeb4f1b46aa3
+https://pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/
+https://pyimagesearch.com/2017/04/17/real-time-facial-landmark-detection-opencv-python-dlib/
+https://pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/
